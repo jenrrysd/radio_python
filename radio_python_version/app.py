@@ -4,7 +4,7 @@ import os
 # Page configuration
 st.set_page_config(
     page_title="Radios Online - Solo Rock",
-    page_icon="images/g4.png",
+    page_icon="radio_python_version/images/g4.png",
     layout="centered"
 )
 
@@ -161,7 +161,7 @@ with st.container():
         st.markdown('</div>', unsafe_allow_html=True)
 
 # Footer & QR
-st.markdown("---")
+#st.markdown("---")
 col_footer1, col_footer2, col_footer3 = st.columns([1, 2, 1])
 with col_footer2:
     st.markdown("""
@@ -171,9 +171,11 @@ with col_footer2:
     </div>
     """, unsafe_allow_html=True)
     
-    # Display QR Code
-    if os.path.exists("images/yape.jpeg"):
-        st.image("images/yape.jpeg", width=300)
+    # Display QR Code (centered)
+    st.markdown('<div style="text-align: center;">', unsafe_allow_html=True)
+    if os.path.exists("radio_python_version/images/yape.jpeg"):
+        st.image("radio_python_version/images/yape.jpeg")
+    st.markdown('</div>', unsafe_allow_html=True)
     
     st.markdown("""
     <div class="footer">

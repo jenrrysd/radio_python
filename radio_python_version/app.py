@@ -1,10 +1,24 @@
 import streamlit as st
 import os
+from PIL import Image
+
+# Get the directory of the current script
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+IMAGE_DIR = os.path.join(BASE_DIR, "images")
+
+# Load images using PIL for better compatibility with different environments
+def load_image(image_name):
+    path = os.path.join(IMAGE_DIR, image_name)
+    if os.path.exists(path):
+        return Image.open(path)
+    return None
+
+icon = load_image("g4.png")
 
 # Page configuration
 st.set_page_config(
     page_title="Boleros Online",
-    page_icon="radio_python_version/images/g4.png",
+    page_icon=icon,
     layout="centered"
 )
 
@@ -188,8 +202,9 @@ with col_footer2:
     
     # Display QR Code (centered)
     st.markdown('<div style="text-align: center;">', unsafe_allow_html=True)
-    if os.path.exists("radio_python_version/images/yape.jpeg"):
-        st.image("radio_python_version/images/yape.jpeg")
+    yape_qr = load_image("yape.jpeg")
+    if yape_qr:
+        st.image(yape_qr)
     st.markdown('</div>', unsafe_allow_html=True)
     
     st.markdown("""

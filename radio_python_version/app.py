@@ -30,9 +30,9 @@ st.markdown("""
         background-color: #c7cce6;
     }
     h1 {
-        color: black !important;
+        color: black;
         text-align: center;
-        font-size: 40px;
+        font-size: 30px;
         font-family: Arial, sans-serif;
     }
     .stButton > button {

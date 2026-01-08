@@ -66,26 +66,26 @@ st.markdown("""
 
 # Station List
 stations = [
-    {"name": "1.- GotRadio 80s", "url": "https://pureplay.cdnstream1.com/6009_64.aac"},
-    {"name": "2.- Radio Zlote Przeboje", "url": "https://radiostream.pl/tuba9-1.mp3"},
-    {"name": "3.- Curtin Radio", "url": "https://usa7.fastcast4u.com/proxy/curtinfm?mp=%2F1"},
-    {"name": "4.- Mix 106.5", "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHDFMFMAAC.aac?dist=onlineradiobox"},
-    {"name": "5.- Radio Music80s Stereo", "url": "https://stream-156.zeno.fm/qa29r0es1f8uv"},
-    {"name": "6.- Stereorey", "url": "https://playerservices.streamtheworld.com/api/livestream-redirect/XHCAA.mp3?dist=onlineradiobox"},
-    {"name": "7.- 181.fm - The Eagle", "url": "https://listen.181fm.com/181-eagle_128k.mp3"},
-    {"name": "8.- Easy Hits Florida", "url": "https://streaming.live365.com/a80304"},
-    {"name": "9.- 181.fm Awesoma 80's", "url": "https://tinyurl.com/181fmAwesome"},
-    {"name": "10.- 80s80s", "url": "https://tinyurl.com/80s80s"},
-    {"name": "11.- fmhits80s", "url": "https://cast.fmhits80s.net.pe/listen/fm_hits_80s/stream128"},
-    {"name": "12.- BeatlesRadio", "url": "https://strw3.openstream.co/981?aw_0_1st.collectionid%3D6906%26stationId%3D6906"},
-    {"name": "13.- Aardvark", "url": "https://ais-edge90-dal03.cdnstream.com/b77280_128mp3"},
-    {"name": "14.- Rock Antenne Live", "url": "https://stream.rockantenne.de/rockantenne/stream/mp3"},
-    {"name": "15.- Ochentas Radio - rock and pop", "url": "https://stream.zeno.fm/b751gt2uweruv"},
-    {"name": "16.- Flashback Radio 80's Music", "url": "https://das-edge16-live365-dal02.cdnstream.com/a14920"},
-    {"name": "17.- Classic Rock", "url": "https://hdradioclassicrock-rfritschka.radioca.st/stream.m3u"},
-    {"name": "18.- The Blues Radio", "url": "https://i4.streams.ovh/sc/bluesrad/stream"},
-    {"name": "19.- Beatles Radio stream", "url": "https://stream-150.zeno.fm/6tmx3ddb86duv"},
-    {"name": "20.- Houston Blues Radio", "url": "https://ais-edge89-dal02.cdnstream.com/b76353_128mp3?listenerId=735eabef088f5b63e3d62297494ec615&aw_0_1st.playerid=esPlayer&aw_0_1st.skey=1696730860"},
+    {"name": "1.- Radio Boleros", "url": " https://stream.zeno.fm/b10wvksv7mruv"},
+    {"name": "2.- Su majestad el bolero", "url": "https://conectperu.com:7182/stream?icy=http"},
+    {"name": "3.- Radio Viejitas", "url": "https://media.streamingradiomx.com/listen/viejitas/stream"},
+    {"name": "4.- Besame Medellin", "url": "https://19213.live.streamtheworld.com/BESAME_MEDELLINAAC_SC?csegid=2000"},
+    {"name": "5.- Cafe Romantico Radio", "url": "https://panel.retrolandigital.com/listen/cafe_romantico_radio/listen"},
+    {"name": "6.- Baladas románticas en español", "url": "https://media.streamingradiomx.com/listen/romantica/on"},
+    {"name": "7.- Fórmula Melódica", "url": "https://s2.yesstreaming.net:9085/stream"},
+    {"name": "8.- Radio ritmo romantica", "url": "https://mdstrm.com/audio/6839e2376607bdf6b2fcde27/icecast.audio"},
+    {"name": "9.- Romance 99.5", "url": "https://stream.zeno.fm/3avzkdt91rhvv"},
+    {"name": "10.- Acerca de Amor", "url": "https://27163.live.streamtheworld.com/XHRHFMAAC_SC"},
+    {"name": "11.- Boleros, Baladas y mas", "url": "https://stream.zeno.fm/vx4vcv5qyk8uv"},
+    {"name": "12.- María Vargas Boleros por siempre", "url": "https://stream.zeno.fm/40f0h23f938uv"},
+    {"name": "13.- 100 Boleros con aroma", "url": "https://stream.zeno.fm/lfonv1tnignuv"},
+    {"name": "14.- Boleros de oro, plata y bronce", "url": "https://stream.zeno.fm/8mk5quawgs8uv"},
+    {"name": "15.- Criollas y Boleros", "url": "https://stream.zeno.fm/qw3at85dqrhvv"},
+    {"name": "16.- Boleros del alma", "url": "https://stream.zeno.fm/09wxqvzovf2vv"},
+    {"name": "17.- Boleros de antaño", "url": "https://stream.zeno.fm/dllwo2vggqltv"},
+    {"name": "18.- Soneros", "url": "https://stream.zeno.fm/7xw911mv2f8uv"},
+    {"name": "19.- Buenisima radio boleros", "url": "https://stream.zeno.fm/fbpd99sqkchvv"},
+    {"name": "20.- Radio felicidad tríos y boleros", "url": "https://17843.live.streamtheworld.com/ACIR17_S01.mp3"},
 ]
 
 # Initialize Session State
@@ -95,7 +95,7 @@ if 'current_station_name' not in st.session_state:
     st.session_state['current_station_name'] = "Selecciona una emisora"
 
 # Header
-st.markdown("<h1>SOLO ROCK <br>Radios Online</h1>", unsafe_allow_html=True)
+st.markdown("<h1>BOLEROS ROMANTICOS<br>Radios Online</h1>", unsafe_allow_html=True)
 
 # Main Container
 with st.container():

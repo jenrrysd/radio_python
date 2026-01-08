@@ -9,12 +9,10 @@ st.set_page_config(
 )
 
 # Open Graph meta tags for WhatsApp preview
-# IMPORTANTE: Reemplaza la URL de la imagen con tu URL pública de ImgBB o GitHub
-# Sube la imagen 'miniatura.jpg' a https://imgbb.com/ y pega la URL directa aquí
 st.markdown("""
 <meta property="og:title" content="Boleros Románticos" />
 <meta property="og:description" content="Escucha las mejores radios de boleros románticos online. Más de 20 estaciones disponibles." />
-<meta property="og:image" content="https://i.ibb.co/TU-URL-AQUI/miniatura.jpg" />
+<meta property="og:image" content="https://boleros.streamlit.app/images/miniatura.jpg" />
 <meta property="og:image:width" content="1200" />
 <meta property="og:image:height" content="630" />
 <meta property="og:url" content="https://boleros.streamlit.app" />
@@ -22,7 +20,7 @@ st.markdown("""
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:title" content="Boleros Románticos - Radios Online" />
 <meta name="twitter:description" content="Escucha las mejores radios de boleros románticos online." />
-<meta name="twitter:image" content="https://i.ibb.co/TU-URL-AQUI/miniatura.jpg" />
+<meta name="twitter:image" content="https://boleros.streamlit.app/images/miniatura.jpg" />
 """, unsafe_allow_html=True)
 
 # Custom CSS to match the original design

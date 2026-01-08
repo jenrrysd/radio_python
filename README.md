@@ -1,6 +1,6 @@
-# Radio Python
+# Boleros Románticos - Radios Online
 
-Aplicación de radio desarrollada en Python.
+Escucha las mejores radios de boleros románticos online, 20 estaciones disponibles.
 
 ## Instalación
 

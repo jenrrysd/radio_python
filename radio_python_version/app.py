@@ -3,7 +3,7 @@ import os
 
 # Page configuration
 st.set_page_config(
-    page_title="Radios Online - Solo Rock",
+    page_title="Boleros Online",
     page_icon="radio_python_version/images/g4.png",
     layout="centered"
 )

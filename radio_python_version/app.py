@@ -10,7 +10,7 @@ st.set_page_config(
 
 # Open Graph meta tags for WhatsApp preview
 st.markdown("""
-<meta property="og:title" content="Boleros Románticos - Radios Online" />
+<meta property="og:title" content="Boleros Románticos" />
 <meta property="og:description" content="Escucha las mejores radios de boleros románticos online. Más de 20 estaciones disponibles." />
 <meta property="og:image" content="https://boleros.streamlit.app/images/miniatura.jpg" />
 <meta property="og:image:width" content="1200" />
